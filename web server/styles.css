@@ -1,0 +1,56 @@
+body {
+  background-color: #273238;
+  color: #bbbbbb;
+  margin: 0;
+}
+
+#map {
+  height: 660px;
+  width: 640px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.panel {
+  flex: 1;
+  margin: 10px;
+  background-color: #303f46;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.leaflet-control-container {
+  display: none;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  max-width: none;
+  justify-content: space-between;
+}
+
+.radar-line {
+  animation: blink 1s infinite;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.console {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.direction-icon {
+  font-size: 20px;
+  color: rgb(201, 12, 12);
+  font-weight: bold;
+}

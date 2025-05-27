@@ -173,7 +173,7 @@ let websocket; // Khai báo biến websocket ở cấp toàn cục
 
 // Thiết lập WebSocket kết nối
 function setupWebSocket() {
-  websocket = new WebSocket("ws://127.0.0.1:8000"); // Địa chỉ WebSocket server
+  websocket = new WebSocket("ws://localhost:8000"); // Địa chỉ WebSocket server
 
   websocket.onopen = () => {
     console.log("WebSocket connection opened");

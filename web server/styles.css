@@ -54,3 +54,9 @@ body {
   color: rgb(201, 12, 12);
   font-weight: bold;
 }
+
+#console {
+  height: 150px;
+  background-color: #1e2529;
+  color: #bbbbbb;
+}

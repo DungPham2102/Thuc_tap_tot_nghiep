@@ -24,15 +24,6 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 // Tọa độ ban đầu của thuyền
 var center = [21.03873701, 105.78245842];
 
-// Khởi tạo icon cho thuyền
-
-// @ts-ignore
-var boatIcon = L.icon({
-  iconUrl: "boat.jpg",
-  iconSize: [32, 32],
-  iconAnchor: [16, 16],
-});
-
 // Khởi tạo marker cho thuyền
 
 // @ts-ignore
